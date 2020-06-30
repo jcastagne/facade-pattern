@@ -3,7 +3,8 @@
   "schematics": {
     "facade-pattern": {
       "description": "A blank schematic.",
-      "factory": "./facade-pattern/index#facadePattern"
+      "factory": "./facade-pattern/index#facadePattern",
+      "schema": "./facade-pattern/schema.json"
     }
   }
 }

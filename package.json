@@ -1,6 +1,6 @@
 {
-  "name": "facade-pattern",
-  "version": "0.0.0",
+  "name": "@schematics/facade-pattern",
+  "version": "1.0.0",
   "description": "A blank schematics",
   "scripts": {
     "build": "tsc -p tsconfig.json",

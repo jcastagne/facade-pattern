@@ -1,0 +1,26 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "id": "FacadePatternSchematics",
+    "title": "Facade Pattern Schema",
+    "description": "Update the tree structure with a new module following facade pattern principles and folder architecture",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "The name of the module",
+            "$default": {
+                "$source": "argv",
+                "index": 0
+            },
+            "x-prompt": "Module name :"
+        },
+        "model": {
+            "type": "string",
+            "description": "The name of the model",
+            "$default": {
+                "$source": "argv",
+                "index": 1
+            },
+            "x-prompt": "Model name :"
+        }
+    }
+}
