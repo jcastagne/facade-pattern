@@ -21,6 +21,10 @@
                 "index": 1
             },
             "x-prompt": "Model name :"
+        },
+        "project": {
+            "type": "string",
+            "description": "Generate in specific Angular CLI workspace project"
         }
     }
 }

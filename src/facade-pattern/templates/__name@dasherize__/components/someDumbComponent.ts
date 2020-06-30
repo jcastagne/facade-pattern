@@ -1,0 +1,1 @@
+// Dumb components belong to this folder

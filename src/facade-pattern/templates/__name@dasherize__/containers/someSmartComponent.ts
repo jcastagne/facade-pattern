@@ -1,0 +1,1 @@
+// Smart components belong to this folder
