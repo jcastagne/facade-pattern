@@ -21,7 +21,7 @@ export class <%= classify(name) %>Facade {
       // 1. update UI state
       // 2. call API
       add<%= classify(model) %>(<%= underscore(model) %>: <%= classify(model) %>) {
-        this.settingsState.add<%= classify(model) %>(<%= underscore(model) %>);
+        this.<%= camelize(model) %>sState.add<%= classify(model) %>(<%= underscore(model) %>);
         this.<%= camelize(model) %>Api.create<%= classify(model) %>(<%= underscore(model) %>)
           .subscribe(
             (added<%= classify(model) %>WithId: <%= classify(model) %>) => {
