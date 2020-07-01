@@ -1,6 +1,6 @@
 {
   "name": "@jcastagne/schematics-facade-pattern",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Some angular schematics providing boilerplate code implementing facade pattern when creating new module",
   "scripts": {
     "build": "tsc -p tsconfig.json",
